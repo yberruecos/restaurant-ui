@@ -1,0 +1,26 @@
+.menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative; 
+}
+
+.menu_grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu_add_button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1225px) {
+    .menu_grid {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+
+form label input, form label textarea {
+    width: 100%;
+}
+
+.form_submit {
+    border-radius: 10px;
+    background:#6767e0;
+    color: white;
+}

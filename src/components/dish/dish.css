@@ -1,0 +1,65 @@
+.dish {
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    -webkit-box-shadow: 1px 6px 28px 4px rgba(89,89,89,1);
+    -moz-box-shadow: 1px 6px 28px 4px rgba(89,89,89,1);
+    box-shadow: 1px 6px 28px 4px rgba(89,89,89,1);
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.dish_container_img{
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+
+.dish_container_img img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.dish_container_info {
+    padding: 10px;
+}
+
+.dish_container_info h1{
+    margin: 0;
+    text-align: left;
+}
+
+.dish_container_info p{
+    margin: 0;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.dish_container_info_price {
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    justify-content: space-between;
+    align-items: center;
+    width: 86%;
+} 
+.dish_container_info_price span {
+    font-weight: bold;
+}
+.dish_button_edit,.dish_button_delete {
+    border-radius: 12px;
+    width: 52px;
+    margin-right: 2px;
+    color: white;
+}
+.dish_button_edit {
+    background:#6767e0;
+}
+.dish_button_delete {
+    background: #ee5e5e;
+}
